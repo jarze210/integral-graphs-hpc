@@ -16,7 +16,7 @@ Grafy spójne o parametrach $N = 16$ wierzchołków oraz $K = 85$ krawędzi gene
 4. CUDA – Klasyczny algorytm Jacobiego (GPU) – `src/cuda_jacobi_classic.cu`
 5. CUDA – Cykliczny algorytm Jacobiego (GPU, zoptymalizowany) – `src/cuda_jacobi_cyclic.cu`
 
-> Wynik poszukiwań: Po przeszukaniu ponad 1 miliarda grafów o 16 wierzchołkach i 85 krawędziach nie udało się znaleźć ani jednego grafu integralnego.
+Wynik poszukiwań: Po przeszukaniu ponad 1 miliarda grafów o 16 wierzchołkach i 85 krawędziach nie udało się znaleźć ani jednego grafu integralnego.
 
 ### Środowisko testowe
 
