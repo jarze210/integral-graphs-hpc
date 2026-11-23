@@ -16,7 +16,7 @@ Connected graphs with $N = 16$ vertices and $K = 85$ edges are generated on the 
 4. CUDA – Classic Jacobi Algorithm (GPU) – `src/cuda_jacobi_classic.cu`
 5. CUDA – Cyclic Jacobi Algorithm (GPU, Optimized) – `src/cuda_jacobi_cyclic.cu`
 
-> Search Result: After checking over 1 billion connected graphs with 16 vertices and 85 edges, 0 integral graphs were found.
+Search Result: After checking over 1 billion connected graphs with 16 vertices and 85 edges, 0 integral graphs were found.
 
 ### Test Environment
 
@@ -47,6 +47,7 @@ make                        # Build all 5 implementations into bin/
 ./bin/cuda_jacobi_classic   # 4. CUDA Classic Jacobi
 ./bin/cuda_jacobi_cyclic    # 5. CUDA Cyclic Jacobi
 ```
+The files have a hardcoded test limit in the main function. By default, LIMIT_TESTU = 10000 and MILESTONE_TESTU = 1000.
 
 ## 1. Sequential CPU (`src/sequential.cpp`)
 
