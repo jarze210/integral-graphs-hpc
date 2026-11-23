@@ -47,6 +47,8 @@ make                        # Kompilacja wszystkich 5 algorytmów do katalogu bi
 ./bin/cuda_jacobi_classic   # 4. CUDA Klasyczny Jacobi
 ./bin/cuda_jacobi_cyclic    # 5. CUDA Cykliczny Jacobi
 ```
+Pliki maja hardcodowany limit testu w funkcji main. Defaultowo LIMIT_TESTU = 10000; MILESTONE_TESTU = 1000;
+
 
 ## 1. Sekwencyjnie na CPU (`src/sequential.cpp`)
 
